@@ -1,0 +1,861 @@
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~
+$ cd ..
+
+jhanasi@JHANASI-NQ03Z MINGW64 /c/Users
+$ cd ..
+
+jhanasi@JHANASI-NQ03Z MINGW64 /c
+$ cd ..
+
+jhanasi@JHANASI-NQ03Z MINGW64 /
+$ cd C:\Users\jhanasi\eclipse-workspace\Automation
+bash: cd: C:Usersjhanasieclipse-workspaceAutomation: No such file or directory
+
+jhanasi@JHANASI-NQ03Z MINGW64 /
+$ cd C:/Users/jhanasi/eclipse-workspace/Automation
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation
+$ git init
+Initialized empty Git repository in C:/Users/jhanasi/eclipse-workspace/Automatio                                                                                                    n/.git/
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+        Driver/
+        README.md.txt
+        chromedriver.exe
+        config.properties
+        pom.xml
+        src/
+        target/
+        test-output/
+        testng.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+        Driver/
+        README.md.txt
+        chromedriver.exe
+        config.properties
+        pom.xml
+        src/
+        target/
+        test-output/
+        testng.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git add README.md.txt
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   README.md.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+        Driver/
+        chromedriver.exe
+        config.properties
+        pom.xml
+        src/
+        target/
+        test-output/
+        testng.xml
+
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git commit -m "first commit"
+[master (root-commit) 71fb1de] first commit
+ Committer: Jyoti Hanasi -X (jhanasi - CAPGEMINI AMERICA INC at Cisco) <jhanasi@                                                                                                    partnet.cisco.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md.txt
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git remote add origin https://github.com/jyotihanasi/ScratchSelenium.git
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 291 bytes | 291.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/jyotihanasi/ScratchSelenium.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+        Driver/
+        chromedriver.exe
+        config.properties
+        pom.xml
+        src/
+        target/
+        test-output/
+        testng.xml
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git add *
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/TEST-citeis.acc2.Automation.AppTest.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/citeis.acc2.Automation.AppTest.txt.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/citeis.acc2.Automation.AppTest/Command line test.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/citeis.acc2.Automation.AppTest/Command line test.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/jquery-1.7.1.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/old/citeis.acc2.Automation.AppTest/classes.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/old/citeis.acc2.Automation.AppTest/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/old/citeis.acc2.Automation.AppTest/main.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods-alphabetical.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods-not-run.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/old/citeis.acc2.Automation.AppTest/toc.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/old/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-reports.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in target/surefire-reports/testng-reports.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/Suite/Test.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/Suite/Test.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/jquery-1.7.1.min.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-Scripts.AccLogin.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-Scripts.CreateEPG.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-Scripts.CreateProfile.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-Scripts.CreateVM.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-citeis.acc2.Automation.daw.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Default suite/classes.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Default suite/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Default suite/main.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-not-run.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Default suite/reporter-output.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Default suite/toc.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Suite/classes.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Suite/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Suite/main.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods-not-run.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/Suite/toc.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/old/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/testng-reports.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in test-output/testng-reports.js.
+The file will have its original line endings in your working directory.
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Driver/chromedriver.exe
+        new file:   chromedriver.exe
+        new file:   config.properties
+        new file:   pom.xml
+        new file:   src/main/java/Configurations/PropertiesFile.java
+        new file:   src/main/java/Configurations/SuperClass.java
+        new file:   src/main/java/PagesObjects/AccLoginPage.java
+        new file:   src/main/java/Scripts/AccLogin.java
+        new file:   src/main/java/Scripts/CreateEPG.java
+        new file:   src/main/java/Scripts/CreateProfile.java
+        new file:   src/main/java/Scripts/CreateVM.java
+        new file:   src/main/java/Scripts/DeleteTestData.java
+        new file:   src/main/java/citeis/acc2/Automation/App.java
+        new file:   src/main/java/citeis/acc2/Automation/daw.java
+        new file:   src/test/java/citeis/acc2/Automation/AppTest.java
+        new file:   target/Automation-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+        new file:   target/Automation-0.0.1-SNAPSHOT.jar
+        new file:   target/classes/Configurations/PropertiesFile.class
+        new file:   target/classes/Configurations/SuperClass.class
+        new file:   target/classes/PagesObjects/AccLoginPage.class
+        new file:   target/classes/Scripts/AccLogin.class
+        new file:   target/classes/Scripts/CreateEPG.class
+        new file:   target/classes/Scripts/CreateProfile.class
+        new file:   target/classes/Scripts/CreateVM.class
+        new file:   target/classes/Scripts/DeleteTestData.class
+        new file:   target/classes/citeis/acc2/Automation/App.class
+        new file:   target/classes/citeis/acc2/Automation/daw.class
+        new file:   target/maven-archiver/pom.properties
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+        new file:   target/surefire-reports/TEST-citeis.acc2.Automation.AppTest.xml
+        new file:   target/surefire-reports/bullet_point.png
+        new file:   target/surefire-reports/citeis.acc2.Automation.AppTest.txt
+        new file:   target/surefire-reports/citeis.acc2.Automation.AppTest/Command line test.html
+        new file:   target/surefire-reports/citeis.acc2.Automation.AppTest/Command line test.xml
+        new file:   target/surefire-reports/collapseall.gif
+        new file:   target/surefire-reports/emailable-report.html
+        new file:   target/surefire-reports/failed.png
+        new file:   target/surefire-reports/index.html
+        new file:   target/surefire-reports/jquery-1.7.1.min.js
+        new file:   target/surefire-reports/navigator-bullet.png
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/Command line test.properties
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/classes.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/groups.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/index.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/main.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods-alphabetical.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods-not-run.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/reporter-output.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/testng.xml.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/toc.html
+        new file:   target/surefire-reports/old/index.html
+        new file:   target/surefire-reports/passed.png
+        new file:   target/surefire-reports/skipped.png
+        new file:   target/surefire-reports/testng-reports.css
+        new file:   target/surefire-reports/testng-reports.js
+        new file:   target/surefire-reports/testng-results.xml
+        new file:   target/surefire-reports/testng.css
+        new file:   target/test-classes/citeis/acc2/Automation/AppTest.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/Default suite/testng-failed.xml
+        new file:   test-output/Suite/Test.html
+        new file:   test-output/Suite/Test.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery-1.7.1.min.js
+        new file:   test-output/junitreports/TEST-Scripts.AccLogin.xml
+        new file:   test-output/junitreports/TEST-Scripts.CreateEPG.xml
+        new file:   test-output/junitreports/TEST-Scripts.CreateProfile.xml
+        new file:   test-output/junitreports/TEST-Scripts.CreateVM.xml
+        new file:   test-output/junitreports/TEST-citeis.acc2.Automation.daw.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/old/Default suite/Default test.properties
+        new file:   test-output/old/Default suite/classes.html
+        new file:   test-output/old/Default suite/groups.html
+        new file:   test-output/old/Default suite/index.html
+        new file:   test-output/old/Default suite/main.html
+        new file:   test-output/old/Default suite/methods-alphabetical.html
+        new file:   test-output/old/Default suite/methods-not-run.html
+        new file:   test-output/old/Default suite/methods.html
+        new file:   test-output/old/Default suite/reporter-output.html
+        new file:   test-output/old/Default suite/testng.xml.html
+        new file:   test-output/old/Default suite/toc.html
+        new file:   test-output/old/Suite/Test.properties
+        new file:   test-output/old/Suite/classes.html
+        new file:   test-output/old/Suite/groups.html
+        new file:   test-output/old/Suite/index.html
+        new file:   test-output/old/Suite/main.html
+        new file:   test-output/old/Suite/methods-alphabetical.html
+        new file:   test-output/old/Suite/methods-not-run.html
+        new file:   test-output/old/Suite/methods.html
+        new file:   test-output/old/Suite/reporter-output.html
+        new file:   test-output/old/Suite/testng.xml.html
+        new file:   test-output/old/Suite/toc.html
+        new file:   test-output/old/index.html
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-failed.xml
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-results.xml
+        new file:   test-output/testng.css
+        new file:   testng.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Driver/chromedriver.exe
+        new file:   chromedriver.exe
+        new file:   config.properties
+        new file:   pom.xml
+        new file:   src/main/java/Configurations/PropertiesFile.java
+        new file:   src/main/java/Configurations/SuperClass.java
+        new file:   src/main/java/PagesObjects/AccLoginPage.java
+        new file:   src/main/java/Scripts/AccLogin.java
+        new file:   src/main/java/Scripts/CreateEPG.java
+        new file:   src/main/java/Scripts/CreateProfile.java
+        new file:   src/main/java/Scripts/CreateVM.java
+        new file:   src/main/java/Scripts/DeleteTestData.java
+        new file:   src/main/java/citeis/acc2/Automation/App.java
+        new file:   src/main/java/citeis/acc2/Automation/daw.java
+        new file:   src/test/java/citeis/acc2/Automation/AppTest.java
+        new file:   target/Automation-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+        new file:   target/Automation-0.0.1-SNAPSHOT.jar
+        new file:   target/classes/Configurations/PropertiesFile.class
+        new file:   target/classes/Configurations/SuperClass.class
+        new file:   target/classes/PagesObjects/AccLoginPage.class
+        new file:   target/classes/Scripts/AccLogin.class
+        new file:   target/classes/Scripts/CreateEPG.class
+        new file:   target/classes/Scripts/CreateProfile.class
+        new file:   target/classes/Scripts/CreateVM.class
+        new file:   target/classes/Scripts/DeleteTestData.class
+        new file:   target/classes/citeis/acc2/Automation/App.class
+        new file:   target/classes/citeis/acc2/Automation/daw.class
+        new file:   target/maven-archiver/pom.properties
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+        new file:   target/surefire-reports/TEST-citeis.acc2.Automation.AppTest.xml
+        new file:   target/surefire-reports/bullet_point.png
+        new file:   target/surefire-reports/citeis.acc2.Automation.AppTest.txt
+        new file:   target/surefire-reports/citeis.acc2.Automation.AppTest/Command line test.html
+        new file:   target/surefire-reports/citeis.acc2.Automation.AppTest/Command line test.xml
+        new file:   target/surefire-reports/collapseall.gif
+        new file:   target/surefire-reports/emailable-report.html
+        new file:   target/surefire-reports/failed.png
+        new file:   target/surefire-reports/index.html
+        new file:   target/surefire-reports/jquery-1.7.1.min.js
+        new file:   target/surefire-reports/navigator-bullet.png
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/Command line test.properties
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/classes.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/groups.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/index.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/main.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods-alphabetical.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods-not-run.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/reporter-output.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/testng.xml.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/toc.html
+        new file:   target/surefire-reports/old/index.html
+        new file:   target/surefire-reports/passed.png
+        new file:   target/surefire-reports/skipped.png
+        new file:   target/surefire-reports/testng-reports.css
+        new file:   target/surefire-reports/testng-reports.js
+        new file:   target/surefire-reports/testng-results.xml
+        new file:   target/surefire-reports/testng.css
+        new file:   target/test-classes/citeis/acc2/Automation/AppTest.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/Default suite/testng-failed.xml
+        new file:   test-output/Suite/Test.html
+        new file:   test-output/Suite/Test.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery-1.7.1.min.js
+        new file:   test-output/junitreports/TEST-Scripts.AccLogin.xml
+        new file:   test-output/junitreports/TEST-Scripts.CreateEPG.xml
+        new file:   test-output/junitreports/TEST-Scripts.CreateProfile.xml
+        new file:   test-output/junitreports/TEST-Scripts.CreateVM.xml
+        new file:   test-output/junitreports/TEST-citeis.acc2.Automation.daw.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/old/Default suite/Default test.properties
+        new file:   test-output/old/Default suite/classes.html
+        new file:   test-output/old/Default suite/groups.html
+        new file:   test-output/old/Default suite/index.html
+        new file:   test-output/old/Default suite/main.html
+        new file:   test-output/old/Default suite/methods-alphabetical.html
+        new file:   test-output/old/Default suite/methods-not-run.html
+        new file:   test-output/old/Default suite/methods.html
+        new file:   test-output/old/Default suite/reporter-output.html
+        new file:   test-output/old/Default suite/testng.xml.html
+        new file:   test-output/old/Default suite/toc.html
+        new file:   test-output/old/Suite/Test.properties
+        new file:   test-output/old/Suite/classes.html
+        new file:   test-output/old/Suite/groups.html
+        new file:   test-output/old/Suite/index.html
+        new file:   test-output/old/Suite/main.html
+        new file:   test-output/old/Suite/methods-alphabetical.html
+        new file:   test-output/old/Suite/methods-not-run.html
+        new file:   test-output/old/Suite/methods.html
+        new file:   test-output/old/Suite/reporter-output.html
+        new file:   test-output/old/Suite/testng.xml.html
+        new file:   test-output/old/Suite/toc.html
+        new file:   test-output/old/index.html
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-failed.xml
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-results.xml
+        new file:   test-output/testng.css
+        new file:   testng.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git add *
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Driver/chromedriver.exe
+        new file:   chromedriver.exe
+        new file:   config.properties
+        new file:   pom.xml
+        new file:   src/main/java/Configurations/PropertiesFile.java
+        new file:   src/main/java/Configurations/SuperClass.java
+        new file:   src/main/java/PagesObjects/AccLoginPage.java
+        new file:   src/main/java/Scripts/AccLogin.java
+        new file:   src/main/java/Scripts/CreateEPG.java
+        new file:   src/main/java/Scripts/CreateProfile.java
+        new file:   src/main/java/Scripts/CreateVM.java
+        new file:   src/main/java/Scripts/DeleteTestData.java
+        new file:   src/main/java/citeis/acc2/Automation/App.java
+        new file:   src/main/java/citeis/acc2/Automation/daw.java
+        new file:   src/test/java/citeis/acc2/Automation/AppTest.java
+        new file:   target/Automation-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+        new file:   target/Automation-0.0.1-SNAPSHOT.jar
+        new file:   target/classes/Configurations/PropertiesFile.class
+        new file:   target/classes/Configurations/SuperClass.class
+        new file:   target/classes/PagesObjects/AccLoginPage.class
+        new file:   target/classes/Scripts/AccLogin.class
+        new file:   target/classes/Scripts/CreateEPG.class
+        new file:   target/classes/Scripts/CreateProfile.class
+        new file:   target/classes/Scripts/CreateVM.class
+        new file:   target/classes/Scripts/DeleteTestData.class
+        new file:   target/classes/citeis/acc2/Automation/App.class
+        new file:   target/classes/citeis/acc2/Automation/daw.class
+        new file:   target/maven-archiver/pom.properties
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+        new file:   target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+        new file:   target/surefire-reports/TEST-citeis.acc2.Automation.AppTest.xml
+        new file:   target/surefire-reports/bullet_point.png
+        new file:   target/surefire-reports/citeis.acc2.Automation.AppTest.txt
+        new file:   target/surefire-reports/citeis.acc2.Automation.AppTest/Command line test.html
+        new file:   target/surefire-reports/citeis.acc2.Automation.AppTest/Command line test.xml
+        new file:   target/surefire-reports/collapseall.gif
+        new file:   target/surefire-reports/emailable-report.html
+        new file:   target/surefire-reports/failed.png
+        new file:   target/surefire-reports/index.html
+        new file:   target/surefire-reports/jquery-1.7.1.min.js
+        new file:   target/surefire-reports/navigator-bullet.png
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/Command line test.properties
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/classes.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/groups.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/index.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/main.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods-alphabetical.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods-not-run.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/reporter-output.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/testng.xml.html
+        new file:   target/surefire-reports/old/citeis.acc2.Automation.AppTest/toc.html
+        new file:   target/surefire-reports/old/index.html
+        new file:   target/surefire-reports/passed.png
+        new file:   target/surefire-reports/skipped.png
+        new file:   target/surefire-reports/testng-reports.css
+        new file:   target/surefire-reports/testng-reports.js
+        new file:   target/surefire-reports/testng-results.xml
+        new file:   target/surefire-reports/testng.css
+        new file:   target/test-classes/citeis/acc2/Automation/AppTest.class
+        new file:   test-output/Default suite/Default test.html
+        new file:   test-output/Default suite/Default test.xml
+        new file:   test-output/Default suite/testng-failed.xml
+        new file:   test-output/Suite/Test.html
+        new file:   test-output/Suite/Test.xml
+        new file:   test-output/bullet_point.png
+        new file:   test-output/collapseall.gif
+        new file:   test-output/emailable-report.html
+        new file:   test-output/failed.png
+        new file:   test-output/index.html
+        new file:   test-output/jquery-1.7.1.min.js
+        new file:   test-output/junitreports/TEST-Scripts.AccLogin.xml
+        new file:   test-output/junitreports/TEST-Scripts.CreateEPG.xml
+        new file:   test-output/junitreports/TEST-Scripts.CreateProfile.xml
+        new file:   test-output/junitreports/TEST-Scripts.CreateVM.xml
+        new file:   test-output/junitreports/TEST-citeis.acc2.Automation.daw.xml
+        new file:   test-output/navigator-bullet.png
+        new file:   test-output/old/Default suite/Default test.properties
+        new file:   test-output/old/Default suite/classes.html
+        new file:   test-output/old/Default suite/groups.html
+        new file:   test-output/old/Default suite/index.html
+        new file:   test-output/old/Default suite/main.html
+        new file:   test-output/old/Default suite/methods-alphabetical.html
+        new file:   test-output/old/Default suite/methods-not-run.html
+        new file:   test-output/old/Default suite/methods.html
+        new file:   test-output/old/Default suite/reporter-output.html
+        new file:   test-output/old/Default suite/testng.xml.html
+        new file:   test-output/old/Default suite/toc.html
+        new file:   test-output/old/Suite/Test.properties
+        new file:   test-output/old/Suite/classes.html
+        new file:   test-output/old/Suite/groups.html
+        new file:   test-output/old/Suite/index.html
+        new file:   test-output/old/Suite/main.html
+        new file:   test-output/old/Suite/methods-alphabetical.html
+        new file:   test-output/old/Suite/methods-not-run.html
+        new file:   test-output/old/Suite/methods.html
+        new file:   test-output/old/Suite/reporter-output.html
+        new file:   test-output/old/Suite/testng.xml.html
+        new file:   test-output/old/Suite/toc.html
+        new file:   test-output/old/index.html
+        new file:   test-output/passed.png
+        new file:   test-output/skipped.png
+        new file:   test-output/testng-failed.xml
+        new file:   test-output/testng-reports.css
+        new file:   test-output/testng-reports.js
+        new file:   test-output/testng-results.xml
+        new file:   test-output/testng.css
+        new file:   testng.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git push -u origin master
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git commit -m "committed first project "
+[master d690a08] committed first project
+ Committer: Jyoti Hanasi -X (jhanasi - CAPGEMINI AMERICA INC at Cisco) <jhanasi@partnet.cisco.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 110 files changed, 3307 insertions(+)
+ create mode 100644 Driver/chromedriver.exe
+ create mode 100644 chromedriver.exe
+ create mode 100644 config.properties
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/Configurations/PropertiesFile.java
+ create mode 100644 src/main/java/Configurations/SuperClass.java
+ create mode 100644 src/main/java/PagesObjects/AccLoginPage.java
+ create mode 100644 src/main/java/Scripts/AccLogin.java
+ create mode 100644 src/main/java/Scripts/CreateEPG.java
+ create mode 100644 src/main/java/Scripts/CreateProfile.java
+ create mode 100644 src/main/java/Scripts/CreateVM.java
+ create mode 100644 src/main/java/Scripts/DeleteTestData.java
+ create mode 100644 src/main/java/citeis/acc2/Automation/App.java
+ create mode 100644 src/main/java/citeis/acc2/Automation/daw.java
+ create mode 100644 src/test/java/citeis/acc2/Automation/AppTest.java
+ create mode 100644 target/Automation-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+ create mode 100644 target/Automation-0.0.1-SNAPSHOT.jar
+ create mode 100644 target/classes/Configurations/PropertiesFile.class
+ create mode 100644 target/classes/Configurations/SuperClass.class
+ create mode 100644 target/classes/PagesObjects/AccLoginPage.class
+ create mode 100644 target/classes/Scripts/AccLogin.class
+ create mode 100644 target/classes/Scripts/CreateEPG.class
+ create mode 100644 target/classes/Scripts/CreateProfile.class
+ create mode 100644 target/classes/Scripts/CreateVM.class
+ create mode 100644 target/classes/Scripts/DeleteTestData.class
+ create mode 100644 target/classes/citeis/acc2/Automation/App.class
+ create mode 100644 target/classes/citeis/acc2/Automation/daw.class
+ create mode 100644 target/maven-archiver/pom.properties
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
+ create mode 100644 target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+ create mode 100644 target/surefire-reports/TEST-citeis.acc2.Automation.AppTest.xml
+ create mode 100644 target/surefire-reports/bullet_point.png
+ create mode 100644 target/surefire-reports/citeis.acc2.Automation.AppTest.txt
+ create mode 100644 target/surefire-reports/citeis.acc2.Automation.AppTest/Command line test.html
+ create mode 100644 target/surefire-reports/citeis.acc2.Automation.AppTest/Command line test.xml
+ create mode 100644 target/surefire-reports/collapseall.gif
+ create mode 100644 target/surefire-reports/emailable-report.html
+ create mode 100644 target/surefire-reports/failed.png
+ create mode 100644 target/surefire-reports/index.html
+ create mode 100644 target/surefire-reports/jquery-1.7.1.min.js
+ create mode 100644 target/surefire-reports/navigator-bullet.png
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/Command line test.properties
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/classes.html
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/groups.html
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/index.html
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/main.html
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods-alphabetical.html
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods-not-run.html
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/methods.html
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/reporter-output.html
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/testng.xml.html
+ create mode 100644 target/surefire-reports/old/citeis.acc2.Automation.AppTest/toc.html
+ create mode 100644 target/surefire-reports/old/index.html
+ create mode 100644 target/surefire-reports/passed.png
+ create mode 100644 target/surefire-reports/skipped.png
+ create mode 100644 target/surefire-reports/testng-reports.css
+ create mode 100644 target/surefire-reports/testng-reports.js
+ create mode 100644 target/surefire-reports/testng-results.xml
+ create mode 100644 target/surefire-reports/testng.css
+ create mode 100644 target/test-classes/citeis/acc2/Automation/AppTest.class
+ create mode 100644 test-output/Default suite/Default test.html
+ create mode 100644 test-output/Default suite/Default test.xml
+ create mode 100644 test-output/Default suite/testng-failed.xml
+ create mode 100644 test-output/Suite/Test.html
+ create mode 100644 test-output/Suite/Test.xml
+ create mode 100644 test-output/bullet_point.png
+ create mode 100644 test-output/collapseall.gif
+ create mode 100644 test-output/emailable-report.html
+ create mode 100644 test-output/failed.png
+ create mode 100644 test-output/index.html
+ create mode 100644 test-output/jquery-1.7.1.min.js
+ create mode 100644 test-output/junitreports/TEST-Scripts.AccLogin.xml
+ create mode 100644 test-output/junitreports/TEST-Scripts.CreateEPG.xml
+ create mode 100644 test-output/junitreports/TEST-Scripts.CreateProfile.xml
+ create mode 100644 test-output/junitreports/TEST-Scripts.CreateVM.xml
+ create mode 100644 test-output/junitreports/TEST-citeis.acc2.Automation.daw.xml
+ create mode 100644 test-output/navigator-bullet.png
+ create mode 100644 test-output/old/Default suite/Default test.properties
+ create mode 100644 test-output/old/Default suite/classes.html
+ create mode 100644 test-output/old/Default suite/groups.html
+ create mode 100644 test-output/old/Default suite/index.html
+ create mode 100644 test-output/old/Default suite/main.html
+ create mode 100644 test-output/old/Default suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Default suite/methods-not-run.html
+ create mode 100644 test-output/old/Default suite/methods.html
+ create mode 100644 test-output/old/Default suite/reporter-output.html
+ create mode 100644 test-output/old/Default suite/testng.xml.html
+ create mode 100644 test-output/old/Default suite/toc.html
+ create mode 100644 test-output/old/Suite/Test.properties
+ create mode 100644 test-output/old/Suite/classes.html
+ create mode 100644 test-output/old/Suite/groups.html
+ create mode 100644 test-output/old/Suite/index.html
+ create mode 100644 test-output/old/Suite/main.html
+ create mode 100644 test-output/old/Suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Suite/methods-not-run.html
+ create mode 100644 test-output/old/Suite/methods.html
+ create mode 100644 test-output/old/Suite/reporter-output.html
+ create mode 100644 test-output/old/Suite/testng.xml.html
+ create mode 100644 test-output/old/Suite/toc.html
+ create mode 100644 test-output/old/index.html
+ create mode 100644 test-output/passed.png
+ create mode 100644 test-output/skipped.png
+ create mode 100644 test-output/testng-failed.xml
+ create mode 100644 test-output/testng-reports.css
+ create mode 100644 test-output/testng-reports.js
+ create mode 100644 test-output/testng-results.xml
+ create mode 100644 test-output/testng.css
+ create mode 100644 testng.xml
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git push
+Enumerating objects: 141, done.
+Counting objects: 100% (141/141), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (112/112), done.
+Writing objects: 100% (140/140), 13.13 MiB | 200.00 KiB/s, done.
+Total 140 (delta 31), reused 0 (delta 0)
+remote: Resolving deltas: 100% (31/31), done.
+To https://github.com/jyotihanasi/ScratchSelenium.git
+   71fb1de..d690a08  master -> master
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git add *
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git commit -m "modified readme file"
+[master d64b53a] modified readme file
+ Committer: Jyoti Hanasi -X (jhanasi - CAPGEMINI AMERICA INC at Cisco) <jhanasi@partnet.cisco.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 376 bytes | 376.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jyotihanasi/ScratchSelenium.git
+   d690a08..d64b53a  master -> master
+
+jhanasi@JHANASI-NQ03Z MINGW64 ~/eclipse-workspace/Automation (master)
+$
