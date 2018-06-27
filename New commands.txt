@@ -1,0 +1,8 @@
+1) if you modify any files in the local you have to give git status first
+git status
+git add * or git add <filename> (this for single file)
+git status
+git commit -m "comment"
+git push
+
+2) git pull https://github.com/jyotihanasi/ScratchSelenium.git
