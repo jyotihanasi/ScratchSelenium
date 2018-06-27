@@ -1,0 +1,10 @@
+PagesObjects\AccLoginPage.class
+citeis\acc2\Automation\daw.class
+Scripts\AccLogin.class
+Scripts\CreateEPG.class
+Scripts\DeleteTestData.class
+Scripts\CreateVM.class
+citeis\acc2\Automation\App.class
+Configurations\PropertiesFile.class
+Configurations\SuperClass.class
+Scripts\CreateProfile.class

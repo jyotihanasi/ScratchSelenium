@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>citeis.acc2</groupId>
+  <artifactId>Automation</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>Automation</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+       
+    <dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.8</version>
+  	</dependency>
+
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+	
+	 <dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.17</version>
+	</dependency>
+
+  </dependencies>
+  
+ 
+ 
+  <build>
+  <plugins>
+    <plugin>
+      <artifactId>maven-assembly-plugin</artifactId>
+      <configuration>
+        <archive>
+          <manifest>
+          	<addClasspath>true</addClasspath>
+            <mainClass>citeis.acc2.Automation.App</mainClass>
+          </manifest>
+        </archive>
+        <descriptorRefs>
+          <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
+ <!-- dshasdkj -->
+ 
+       <suiteXmlFiles> 
+          <xmlpathinjar>src\main\java\Configurations\testng.xml</xmlpathinjar> 
+       </suiteXmlFiles>
+ 
+ <!-- dahwidi -->
+ 
+ 
+      </configuration>    
+    <executions>
+        <execution>
+          <id>make-assembly</id> 
+          <phase>package</phase> <!-- packaging phase -->
+          <goals>
+            <goal>single</goal>
+          </goals>
+        </execution>
+      </executions>
+      
+    </plugin>      
+  </plugins>
+  
+</build>
+  
+</project>

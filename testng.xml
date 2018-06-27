@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    
+    <test thread-count="5" name="AccLogin">
+    <classes>    
+        <class name="Scripts.AccLogin"/>
+     </classes>
+  </test>
+  
+  <test thread-count="5" name="CreateProfile">
+    <classes>    
+        <class name="Scripts.CreateProfile"/>
+     </classes>
+  </test>
+  
+  <test thread-count="5" name="CreateEPG">
+    <classes>    
+        <class name="Scripts.CreateEPG"/>
+     </classes>
+  </test>
+  
+  <test thread-count="5" name="CreateVM">
+    <classes>    
+        <class name="Scripts.CreateVM"/>
+     </classes>
+  </test>
+  
+</suite>  
+  
+  
+</suite>
